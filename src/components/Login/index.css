@@ -1,0 +1,40 @@
+.login-container {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-card {
+  background-color: #64748b;
+  width: 75%;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+}
+
+.logo {
+  height: 50px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 15px;
+}
+
+.label {
+  font-family: roboto;
+  color: whitesmoke;
+}
+
+.input-element {
+  border-radius: 5px;
+  padding: 3px 5px 3px 5px;
+}
